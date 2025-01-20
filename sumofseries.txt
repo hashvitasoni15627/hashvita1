@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int n=12;
+    double sum=0.0;
+    printf("Enter the value of n:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i+=2)
+    {
+       sum +=(double)i/(i+1);
+    }
+    printf("The sum of the series is: %.6f\n",sum);
+    return 0;
+} 
