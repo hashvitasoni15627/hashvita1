@@ -31,6 +31,5 @@ int main()
     printf("Enter the size of the square: ");
     scanf("%d", &n);
     x(n);
-    
     return 0;
 }
